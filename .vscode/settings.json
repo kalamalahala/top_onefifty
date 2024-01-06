@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\january\\merge_sorted_array\\Cargo.toml",
+        ".\\january\\remove_element\\Cargo.toml",
+    ]
+}
