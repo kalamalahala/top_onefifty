@@ -5,5 +5,6 @@
         ".\\january\\remove_duplicates_from_sorted_array\\Cargo.toml",
         ".\\january\\remove_dupes_two\\Cargo.toml",
         ".\\january\\majority_element\\Cargo.toml",
+        ".\\january\\rotate_array\\Cargo.toml",
     ]
 }
