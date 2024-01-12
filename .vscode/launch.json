@@ -11,7 +11,7 @@
             "cargo": {
                 "args": [
                     "build",
-                    "--manifest-path=january/remove_duplicates_from_sorted_array/Cargo.toml",
+                    "--manifest-path=array_string/jump_game_ii/Cargo.toml",
                 ]
             },
             "args": []
