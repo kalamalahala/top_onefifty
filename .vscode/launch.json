@@ -11,7 +11,7 @@
             "cargo": {
                 "args": [
                     "build",
-                    "--manifest-path=array_string/jump_game_ii/Cargo.toml",
+                    "--manifest-path=array_string/h_index/Cargo.toml",
                 ]
             },
             "args": []

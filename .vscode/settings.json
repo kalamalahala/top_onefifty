@@ -11,5 +11,6 @@
         // arrays and strings
         ".\\array_string\\jump_game\\Cargo.toml",
         ".\\array_string\\jump_game_ii\\Cargo.toml",
+        ".\\array_string\\h_index\\Cargo.toml",
     ]
 }

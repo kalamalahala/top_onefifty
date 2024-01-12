@@ -20,15 +20,28 @@ fn main() {
 struct Solution;
 impl Solution {
     pub fn jump(nums: Vec<i32>) -> i32 {
+        println!("nums: {:?}", nums);
         let mut jumps = 0;
+        println!("jumps made: {}", jumps);
         let mut current_jump_end = 0;
+        println!("current_jump_end: {}", current_jump_end);
         let mut farthest = 0;
+        println!("farthest possible: {}", farthest);
         for (i, _) in nums.iter().enumerate().take(nums.len() - 1) {
+            println!("=====================");
+            println!("index: {}", i);
             farthest = std::cmp::max(farthest, i + nums[i] as usize);
+            println!("farthest possible: {}", farthest);
+            println!("is current index the end of the current jump?");
             if i == current_jump_end {
+                println!("yes");
                 jumps += 1;
+                println!("jumps made: {}", jumps);
                 current_jump_end = farthest;
+                println!("current_jump_end: {}", current_jump_end);
             }
+            println!("finished iterations");
+            println!("=====================");
         }
         jumps
     }
